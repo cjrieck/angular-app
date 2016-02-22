@@ -1,0 +1,73 @@
+html, body {
+  background: #fff;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+	color: inherit;
+}
+
+.main {
+	margin: 0;
+	width: 100%;
+}
+
+.container {
+	margin: 0;
+	width: 100%;
+}
+
+.article-page {
+	margin: 30px 50px 0 50px;
+}
+
+h1 {
+	margin-left: 30px;
+}
+
+.row {
+	display: block;
+	float: left;
+	clear: left;
+	background-color: white;
+	margin: 0 30px 30px 30px;
+	border-color: #95a5a6;
+	border-width: 2px;
+	border-radius: 10px;
+
+	-o-transition: .25s;
+	-ms-transition: .25s;
+	-moz-transition: .25s;
+	-webkit-transition: .25s;
+	transition: .25s;
+}
+
+.row:hover {
+	color: #3498db;
+}
+
+.articleTitle, .articleSource, .articlePreview, .articleLead, .articleAbstract {
+	float: left;
+	clear: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.articleTitle {
+	display: block;
+	font-size: 24px;
+}
+
+.articleSource {
+	display: block;
+	font-size: 14px;
+	color: #bdc3c7;
+}
+
+.articlePreview {
+	display: block;
+	font-size: 18px;
+}

@@ -1,0 +1,10 @@
+{
+  "name"         : "angular-app",
+  "version"      : "0.0.1",
+  "description"  : "Simple Angular application.",
+  "main"         : "server.js",
+  "author"       : "Clayton",
+  "dependencies" : {
+    "express"    : "~4.7.2"
+    }
+}
